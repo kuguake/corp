@@ -6,7 +6,7 @@ import React from 'react'
 // const linkData = [
 //   {name:'首页',path:'/dashboard'}
 // ]
-const accessLink = ['/','/dashboard']
+// const accessLink = ['/','/dashboard']
 
   export default function template({
     children,
@@ -23,7 +23,6 @@ const accessLink = ['/','/dashboard']
       <div className='bg-blue-500'>
         <h1 className=''>这是模版</h1>
         {children}
-         
       </div>
     );
   }
